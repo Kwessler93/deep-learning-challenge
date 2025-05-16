@@ -29,7 +29,7 @@ The purpose of this analysis was to develop a deep learning model capable of pre
   - **Performance:** Achieved ~73% accuracy  
   - **Reasoning:** This baseline configuration used a common activation function (`relu`) for handling non-linear relationships and a `sigmoid` activation in the output layer for binary classification.
 
-- **Model Optimization Attempts:'AlphabetSoupCharity_Optimization.ipynb'**
+- **Model Optimization Attempts: 'AlphabetSoupCharity_Optimization.ipynb'**
   - Utilized **Keras Tuner** with **Hyperband** optimization across three versions of models:
     1. Tuned neuron counts and activation functions (`relu`, `tanh`, `sigmoid`).
     2. Increased layer sizes and added options like `selu` and `leaky_relu`.
